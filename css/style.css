@@ -1,0 +1,152 @@
+body{
+    background-color: #181818;
+    font-family: Lato;
+    font-size:1.4rem;
+}
+
+
+
+/* navigation */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid #FCE9F1;
+}
+
+.nav img {
+    padding: 10px;
+    height: 60px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap:16px;
+}
+
+.nav-links li a {
+    color:#D8D9CF;
+    padding-right:16px;
+    text-decoration:none;
+}
+
+li a:hover {
+    color:lawngreen;
+    transition:color .2s ease-out;
+    -webkit-transition:color .2s ease-out;
+    -moz-transition:color .2s ease-out;
+    -ms-transition:color .2s ease-out;
+    -o-transition:color .2s ease-out;
+    text-decoration: underline wavy;
+    text-underline-offset: 4px;
+}
+/* main content */
+
+.main-content {
+    height:720px;
+    width:1200px;
+    /* img properties */
+    background-color: #9d9d9d;
+    background-image: url("/imgs/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    /* flex */
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content > .statements {
+    background-color: #181818;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+h2 {
+ font-family: "Dancing Script", serif;
+     font-size: 3.2rem;
+    color: #D8D9CF; 
+}
+
+.statements h4 { color:#D8D9CF}
+
+
+.tea .statements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statements p {color:#D8D9CF;}
+
+
+.imgs {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: auto;
+    justify-content: space-around;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.imgs img {
+    width: 300px;
+    height: 200px;
+    margin:16px;
+}
+
+figcaption p {
+    color:#D8D9CF;
+    text-align: center      ;
+}
+
+/* locations  */
+
+.location {
+    height:500px;
+    width:1200px;
+    background-image: url("/imgs/img-locations-background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: #9d9d9d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:32px auto;
+}
+
+
+
+.cards {
+    display: inline-flex;
+    margin-top: 24px;
+}
+
+.card {
+    text-align: center;
+    padding: 24px;
+    margin-right: 36px;
+    margin-left: 36px;
+    background-color: #181818;
+    color:#D8D9CF;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#D8D9CF
+
+}
