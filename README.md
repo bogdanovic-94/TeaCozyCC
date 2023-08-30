@@ -1,2 +1,3 @@
-# TeaCozyCC
-A project I did from CodeCademy front-end dev career path.
+# TeaCozy
+The first project from CodeCademy FrontEnd Engineer Path.
+## Overall introduction to html and css.
